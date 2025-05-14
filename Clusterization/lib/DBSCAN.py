@@ -53,7 +53,6 @@ class DBSCANClusterization:
         X = np.array(X)
         n_points = len(X)
         
-        # Ініціалізація
         visited = [False] * n_points
         labels = [-1] * n_points
         cluster_id = 0
